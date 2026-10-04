@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "stickers": [
+    {
+      "id": "cat-hit",
+      "title": "遭受打击",
+      "description": "橘白猫被红色拳头道具击中，配字遭受打击。",
+      "tags": [
+        "遭受打击",
+        "受伤",
+        "震惊",
+        "委屈",
+        "挫败",
+        "吐槽",
+        "猫"
+      ],
+      "scenarios": [
+        "被怼后轻松自嘲",
+        "计划受挫时表达无奈"
+      ],
+      "file": "cat-hit.png",
+      "source_filename": "154112.png",
+      "mime_type": "image/png",
+      "sha256": "6aa96c94ba6101fff60b5fcc4ab5cfc3282a466cd8b95fdb77d6f8ca591329c5"
+    },
+    {
+      "id": "cat-careful",
+      "title": "等下讲你又不高兴",
+      "description": "圆眼猫咪看着镜头，配字等下讲你又不高兴。",
+      "tags": [
+        "欲言又止",
+        "吐槽",
+        "反驳",
+        "犹豫",
+        "小心翼翼",
+        "不高兴",
+        "猫"
+      ],
+      "scenarios": [
+        "准备提出不同意见",
+        "带笑地提醒对方"
+      ],
+      "file": "cat-careful.png",
+      "source_filename": "154110.png",
+      "mime_type": "image/png",
+      "sha256": "ad1c3572ade378d0d140ccc83dd8bfea8fffd1d2c7b55ff8b741a2aea55022a4"
+    },
+    {
+      "id": "cat-thinking",
+      "title": "思索",
+      "description": "橘白猫歪头，配字思索。",
+      "tags": [
+        "思索",
+        "思考",
+        "想想",
+        "疑惑",
+        "琢磨",
+        "猫"
+      ],
+      "scenarios": [
+        "考虑问题",
+        "面对奇怪的提问"
+      ],
+      "file": "cat-thinking.png",
+      "source_filename": "154108.png",
+      "mime_type": "image/png",
+      "sha256": "dcba24c01fa636ff1204e28a7a34e000213c764cb2e07839f72a337412f73f83"
+    },
+    {
+      "id": "puppy-pat",
+      "title": "把你摸到起球",
+      "description": "黄色小人笑着揉白色小狗的头，配字把你摸到起球！",
+      "tags": [
+        "摸头",
+        "揉脑袋",
+        "宠爱",
+        "夸奖",
+        "安慰",
+        "可爱",
+        "狗"
+      ],
+      "scenarios": [
+        "夸奖对方",
+        "亲昵地摸摸头"
+      ],
+      "file": "puppy-pat.png",
+      "source_filename": "154106.png",
+      "mime_type": "image/png",
+      "sha256": "ddfa4bf864f9d062901bea61f8106ed8586d954dd39913344ac13f47b95bdcef"
+    },
+    {
+      "id": "puppy-miss",
+      "title": "好想你",
+      "description": "白色小狗托腮想念黄色小人，旁边有粉色爱心，配字好想你。",
+      "tags": [
+        "想你",
+        "想念",
+        "思念",
+        "撒娇",
+        "惦记",
+        "狗"
+      ],
+      "scenarios": [
+        "重逢",
+        "表达想念"
+      ],
+      "file": "puppy-miss.png",
+      "source_filename": "154103.png",
+      "mime_type": "image/png",
+      "sha256": "47253cc600d6b48787986a9a392656c1a40b486cab5e8fcd21068f6ad6b097ed"
+    },
+    {
+      "id": "puppy-kiss",
+      "title": "爱心亲亲",
+      "description": "黄色小人与白色小狗戴着粉色头巾，在爱心中亲吻。",
+      "tags": [
+        "亲亲",
+        "吻",
+        "啵啵",
+        "爱你",
+        "喜欢",
+        "甜蜜",
+        "狗"
+      ],
+      "scenarios": [
+        "回应亲吻",
+        "表达亲昵"
+      ],
+      "file": "puppy-kiss.png",
+      "source_filename": "154101.png",
+      "mime_type": "image/png",
+      "sha256": "006f09f91fb8a0a485b05b664904ff90c5592c412e3485b2f16c8d44edd44d1d"
+    },
+    {
+      "id": "puppy-praise",
+      "title": "骄傲骑肩",
+      "description": "白色小狗骑在黄色小人肩上，闪着星星眼竖起大拇指，配字嚣张。",
+      "tags": [
+        "嚣张",
+        "得意",
+        "骄傲",
+        "夸奖",
+        "厉害",
+        "棒",
+        "狗"
+      ],
+      "scenarios": [
+        "庆祝成功",
+        "夸奖做得好",
+        "玩笑式得意"
+      ],
+      "file": "puppy-praise.png",
+      "source_filename": "154099.png",
+      "mime_type": "image/png",
+      "sha256": "75c3bba60efab19aecc01d17a57e9af9321c717111b282d494ac0cf8abb9b43b"
+    },
+    {
+      "id": "puppy-baby",
+      "title": "宝宝爱心",
+      "description": "白色小狗满眼爱心、吐出爱心舌头，配字宝宝！！",
+      "tags": [
+        "宝宝",
+        "喜欢",
+        "爱你",
+        "开心",
+        "心动",
+        "撒娇",
+        "狗"
+      ],
+      "scenarios": [
+        "亲昵称呼",
+        "回应可爱的分享"
+      ],
+      "file": "puppy-baby.png",
+      "source_filename": "154097.png",
+      "mime_type": "image/png",
+      "sha256": "7f1472a83ac68efebeb9da1aa406e6c6929c29d6aa598cb891b3332ff4c5d692"
+    },
+    {
+      "id": "puppy-flower",
+      "title": "我想跟你好",
+      "description": "白色小狗红着脸，举着一支红玫瑰，配字我想跟你好。",
+      "tags": [
+        "告白",
+        "玫瑰",
+        "送花",
+        "喜欢",
+        "爱你",
+        "示好",
+        "和好",
+        "狗"
+      ],
+      "scenarios": [
+        "表达喜欢",
+        "送花示好"
+      ],
+      "file": "puppy-flower.png",
+      "source_filename": "154095.png",
+      "mime_type": "image/png",
+      "sha256": "4054678f600799b3fcfd0afebb9ede87b29c6ac4857ffa9a71fa7fefb6ff12c6"
+    },
+    {
+      "id": "cat-surprise",
+      "title": "小吃一惊",
+      "description": "橘白猫睁大圆眼，配字小吃一惊。",
+      "tags": [
+        "惊讶",
+        "吃惊",
+        "意外",
+        "震惊",
+        "没想到",
+        "猫"
+      ],
+      "scenarios": [
+        "听到意外消息",
+        "对新发现作出反应"
+      ],
+      "file": "cat-surprise.png",
+      "source_filename": "154126.png",
+      "mime_type": "image/png",
+      "sha256": "ef24c9a2a39fecdd693ffcba47bcc28a602a822fdbce0b68f39a06795d4d8d96"
+    }
+  ]
+}
