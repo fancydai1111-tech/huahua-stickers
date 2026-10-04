@@ -1,7 +1,18 @@
 # 花花的表情包 MCP
 
 第一批 10 张用户提供的表情包，原图保持不变。不调用付费模型 API。
-2026-10-04：图库、搜索与取图代码已完成并通过本地测试；尚未部署，尚未在 ChatGPT 手机端验收。
+2026-10-04：已部署到 Railway，通过公网 HTTPS MCP 初始化、两个工具、十种搜索，以及全部十张原图 SHA256 比对。ChatGPT 插件接入和手机端展示仍需实际验收。
+
+## 已上线地址
+
+- 图库：https://huahua-stickers-production.up.railway.app/
+- MCP：https://huahua-stickers-production.up.railway.app/mcp
+- 传输：Streamable HTTP
+- 认证：无需认证
+
+在 ChatGPT 设置的 Security and login 中启用 Developer mode，再到 Plugins 点击加号，填写上面的 MCP 地址、名称“花花表情包”和说明“从花花的十张真实表情包中按语境搜索与取图”，创建后安装。新建 Work 对话，输入 @ 选择插件，用“找一张摸头表情并展示”验收。界面与可用性以自己的账户为准。
+
+官方接入步骤：https://developers.openai.com/plugins/quickstart
 
 ## 两个工具
 
@@ -27,7 +38,7 @@
 
 1. 将解压后的本目录内容放在 GitHub 专用仓库根目录。若选择公开仓库，仓库中的代码和图片会公开可见。
 2. Railway 从该 GitHub 仓库创建普通服务。根目录已经有 Dockerfile，无需配置模型密钥或数据库。请勿使用 Railway Function：包含原图的单文件超过其 96 KB 上限。
-3. 生成服务域名，路由到 `3000` 端口。应用读取 Railway 的 `PORT` 变量。
+3. 生成服务域名，路由到 `3000` 端口。应用读取 Railway 的 `PORT` 变量；明确设置 `PORT=3000`，使监听端口与域名路由一致。
 4. 验证 `https://你的域名/health` 返回 `status: ok`、`stickers: 10`，根路径能浏览十张图。
 5. 如图片 URL 中域名不正确，为服务设置 `PUBLIC_URL=https://你的域名`（不要附加 /mcp）并重新部署。
 6. 将远程 MCP 地址 `https://你的域名/mcp` 添加到支持 Streamable HTTP 的客户端。
@@ -53,7 +64,7 @@ bun run index.mjs
 
 运行后浏览 `http://localhost:3000`，MCP 地址为 `http://localhost:3000/mcp`。
 本地测试覆盖 MCP 初始化、十种搜索、最近使用排除、空结果、无效编号、参数范围、全部十张图片的原始哈希、图片与纯文本返回、HTTP 缓存、Origin 校验、协议版本、坏 JSON 和通知。
-Docker/Bun 实际容器运行、远程部署及 ChatGPT 手机上的展示效果尚未验证。
+Docker/Bun 容器已在 Railway 运行，远程工具与图片测试通过。ChatGPT 手机上的展示效果尚未验收。
 
 ## 给助手的使用说明
 
